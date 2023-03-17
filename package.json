@@ -1,0 +1,32 @@
+{
+  "name": "rtsp-streaming",
+  "version": "1.0.0",
+  "description": "RTSP Streaming Platform",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "sudo apt install ffmpeg",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuklaritvik06/RTSP-Streaming.git"
+  },
+  "keywords": [
+    "rtsp",
+    "streaming"
+  ],
+  "author": "shuklaritvik06",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shuklaritvik06/RTSP-Streaming/issues"
+  },
+  "homepage": "https://github.com/shuklaritvik06/RTSP-Streaming#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "ip": "^1.1.8",
+    "multer": "^1.4.5-lts.1",
+    "rtsp-streaming-server": "^2.0.6"
+  }
+}
