@@ -4,7 +4,6 @@
   "description": "RTSP Streaming Platform",
   "main": "index.js",
   "scripts": {
-    "preinstall": "sudo apt install ffmpeg",
     "start": "node index.js"
   },
   "repository": {
